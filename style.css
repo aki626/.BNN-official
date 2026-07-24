@@ -1,13 +1,17 @@
-/* 全体 */
+/* ============================
+   全体設定
+============================ */
 body {
-    background: #0a0014;
+    background: #0a0014; /* ネオン向けの濃い紫背景 */
     color: #fff;
     font-family: "Segoe UI", sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* ヒーロー（上のタイトル部分） */
+/* ============================
+   ヘッダー（タイトル部分）
+============================ */
 .hero {
     text-align: center;
     padding: 40px 20px;
@@ -18,7 +22,9 @@ body {
     text-shadow: 0 0 15px #a200ff;
 }
 
-/* メニュー */
+/* ============================
+   メニュー（ホーム・メンバー）
+============================ */
 .menu {
     margin-top: 20px;
 }
@@ -38,13 +44,15 @@ body {
     box-shadow: 0 0 10px #a200ff;
 }
 
-/* メンバーカード（ネオン風） */
+/* ============================
+   メンバーカード（ネオン風）
+============================ */
 .member-card {
     background: rgba(20, 0, 40, 0.6);
     border: 2px solid #a200ff;
     border-radius: 12px;
     padding: 15px;
-    margin: 20px 0;
+    margin: 20px;
     box-shadow: 0 0 15px #a200ff, 0 0 30px rgba(162, 0, 255, 0.5);
     transition: 0.25s;
 }
@@ -74,7 +82,17 @@ body {
     color: #ddd;
 }
 
-/* 参加フォームボタン */
+/* ============================
+   About セクション
+============================ */
+.about {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* ============================
+   参加フォームボタン（ネオン）
+============================ */
 .join-btn {
     display: inline-block;
     padding: 10px 20px;
@@ -94,7 +112,11 @@ body {
     box-shadow: 0 0 15px #ffea00;
 }
 
-/* About セクション */
-.about {
+/* ============================
+   フッター
+============================ */
+footer {
+    text-align: center;
     padding: 20px;
+    opacity: 0.7;
 }
